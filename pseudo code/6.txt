@@ -1,0 +1,8 @@
+words <- {}
+print "Enter sring"
+temp <- entered text
+while(temp.length!=0):
+    split.by.whitespace
+    words.add(temp)
+for( i <- length of words; i-- but > 0) //prints in reverse
+    print words.at(i)

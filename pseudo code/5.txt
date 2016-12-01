@@ -1,0 +1,31 @@
+MATRIXADD(Matrix1, Matrix2)
+    for i <- 1 length of  Matrix1 row
+        for j <- 1 length Matrix1 column
+            Matrix3(i, j)<- Matrix1(i, j) + Matrix2(i, j)
+            end
+        end
+    return Matrix3
+
+MATRIXSUBSTRACT(Matrix1, Matrix2)
+    for i <- 1 length Matrix1 row
+        for j <- 1 length Matrix1 column
+            Matrix3(i, j)<- Matrix1(i, j) - Matrix2(i, j)
+            end
+        end
+    return Matrix3
+
+MATRIXMULTIPLY(Matrix1, Matrix2)
+    for i <- 1 length Matrix1 row
+        for j <- 1 length Matrix1 column
+            Matrix3(i, j)<- Matrix1(i, j) * Matrix2(i, j)
+            end
+        end
+    return Matrix3
+    
+R=B*C+2*(B+C)
+R1 <- MATRIXMULTIPLY(B,C)
+R2 <- MATRIXADD(B,C)
+R3 <- R2*2
+R  <- R1+R3
+
+    

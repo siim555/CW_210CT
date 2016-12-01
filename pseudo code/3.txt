@@ -1,0 +1,4 @@
+numb <- 47
+root <- sqrt(numb)
+root2 <- root*root
+print root2

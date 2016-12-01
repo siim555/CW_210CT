@@ -1,0 +1,15 @@
+def BINARYSEARCH(ordered_list, range_Start, range_End):
+    min=0
+    max -< ordered_list.size -1
+    stop <- FALSE
+    while(stop = FALSE):
+        numb <- (max+min)/2+1
+        if(ordered_list.at(numb)-1 > range_Start and ordered_list.at(numb)- 1 < range_End):
+            return TRUE
+            stop <- TRUE
+        if(numb < first_numb):
+            min=numb +1;
+
+        else if (numb > last_numb):
+            max <- numb -1  
+

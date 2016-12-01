@@ -1,0 +1,9 @@
+def ADD_NODE(key, tomod <- dict{}):
+    update.tomod with key
+    return tomod
+def ADD_EDGE(key, tomod <- dict{}):
+    update.tomod with value
+    return tomod
+graph <- dict(key::values)
+    
+    
